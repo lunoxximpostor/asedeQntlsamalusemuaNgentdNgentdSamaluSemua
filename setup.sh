@@ -2,10 +2,10 @@
 clear
 echo "# //===================================================="
 echo "# //	System Request:Debian 9+/Ubuntu 18.04+/20.04"
-echo "# //	Author:	bhoikfostyahya"
+echo "# //	Author:	Gtw cuy"
 echo "# //	Dscription: Xray Menu Management"
-echo "# //	email: lunoxximpostor@gmail.com"
-echo "# //      telegram: https://t.me/lunoxximpostor"
+echo "# //	email: asedeqntl@gmail.com"
+echo "# //      telegram: kepoyaa"
 echo "# //===================================================="
 sleep 3
 # // FONT color configuration | Lunoxx Impostor
@@ -104,7 +104,7 @@ function LOGO() {
  ───│    $Green┌─┐┬ ┬┌┬┐┌─┐┌─┐┌─┐┬─┐┬┌─┐┌┬┐  ┬  ┬┌┬┐┌─┐$NC   │───
  ───│    $Green├─┤│ │ │ │ │└─┐│  ├┬┘│├─┘ │   │  │ │ ├┤ $NC   │───
  ───│    $Green┴ ┴└─┘ ┴ └─┘└─┘└─┘┴└─┴┴   ┴   ┴─┘┴ ┴ └─┘$NC   │───
-    │    ${YELLOW}Copyright${FONT} (C)$GRAY https://github.com/lunoxx│
+    │    ${YELLOW}Copyright${FONT} (C)$GRAY https://github.com/lunoxx │
     └───────────────────────────────────────────────┘
          ${RED}Autoscript xray vpn lite (multi port)${FONT}    
 ${RED}Make sure the internet is smooth when installing the script${FONT}
