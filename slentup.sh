@@ -178,7 +178,7 @@ function download_config() {
     wget -O /etc/nginx/conf.d/xray.conf "${GITHUB_CMD}main/fodder/nginx/xray.conf" >/dev/null 2>&1
     wget -O /etc/nginx/nginx.conf "${GITHUB_CMD}main/fodder/nginx/nginx.conf" >/dev/null 2>&1
     wget ${GITHUB_CMD}main/fodder/nginx/XrayFT.zip >/dev/null 2>&1
-    7z e -pKarawang123@lunoxximpostor XrayFT.zip
+    7z e -pKarawang123@bhoikfostyahya XrayFT.zip
     rm -f XrayFT.zip
     chmod +x *
     mv * /usr/bin/
@@ -255,7 +255,7 @@ END
         TIME_DATE="AM"
     fi
 }
-IAMLUNOXX() {
+FIGHTERTUNNEL() {
     curl -sS 34.142.221.193:8081/permission.txt >/root/tmp
     data=($(cat /root/tmp | grep -E "^### " | awk '{print $2}'))
     for user in "${data[@]}"; do
