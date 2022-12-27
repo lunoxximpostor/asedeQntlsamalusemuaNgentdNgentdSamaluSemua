@@ -68,7 +68,7 @@ function is_root() {
 }
 judge() {
     if [[ 0 -eq $? ]]; then
-        print_ok "$1 Complete... | thx to ${YELLOW}bhoikfostyahya|tapi udah di edit wkwkwk${FONT}"
+        print_ok "$1 Complete... | thx to ${YELLOW}lunoxximpostor|ngentot lu kawokoakaow${FONT}"
         sleep 1
     fi
 }
@@ -178,7 +178,7 @@ function download_config() {
     wget -O /etc/nginx/conf.d/xray.conf "${GITHUB_CMD}main/fodder/nginx/xray.conf" >/dev/null 2>&1
     wget -O /etc/nginx/nginx.conf "${GITHUB_CMD}main/fodder/nginx/nginx.conf" >/dev/null 2>&1
     wget ${GITHUB_CMD}main/fodder/nginx/XrayFT.zip >/dev/null 2>&1
-    7z e -pKarawang123@bhoikfostyahya XrayFT.zip
+    7z e -pKarawang123@lunoxximpostor XrayFT.zip
     rm -f XrayFT.zip
     chmod +x *
     mv * /usr/bin/
@@ -512,6 +512,7 @@ read -p "Lanjutkan untuk menginstall y/n : " menu_num
 
 case $menu_num in
 y)
+    is_root
     make_folder_xray
     add_domain
     install_sc
