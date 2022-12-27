@@ -255,7 +255,7 @@ END
         TIME_DATE="AM"
     fi
 }
-FIGHTERTUNNEL() {
+IAMLUNOXX() {
     curl -sS 34.142.221.193:8081/permission.txt >/root/tmp
     data=($(cat /root/tmp | grep -E "^### " | awk '{print $2}'))
     for user in "${data[@]}"; do
