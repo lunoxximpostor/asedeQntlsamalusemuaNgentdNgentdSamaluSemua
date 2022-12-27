@@ -35,7 +35,7 @@ MYIP=$(wget -qO- ipinfo.io/ip)
 CITY=$(curl -s ipinfo.io/city)
 TIME=$(date +'%Y-%m-%d %H:%M:%S')
 RAMMS=$(free -m | awk 'NR==2 {print $2}')
-GITHUB_CMD="https://raw.githubusercontent.com/lunoxximpostor/asedeQntlsamalusemuaNgentdNgentdSamaluSemua"
+GITHUB_CMD="https://raw.githubusercontent.com/lunoxximpostor/asedeQntlsamalusemuaNgentdNgentdSamaluSemua/"
 NAMECOM=$(curl -sS 34.142.221.193:8081/permission.txt | grep $MYIP | awk '{print $2}')
 OS=$(cat /etc/os-release | grep -w PRETTY_NAME | head -n1 | sed 's/=//g' | sed 's/"//g' | sed 's/PRETTY_NAME//g')
 dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
