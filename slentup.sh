@@ -104,7 +104,7 @@ function LOGO() {
  ───│    $Green┌─┐┬ ┬┌┬┐┌─┐┌─┐┌─┐┬─┐┬┌─┐┌┬┐  ┬  ┬┌┬┐┌─┐$NC   │───
  ───│    $Green├─┤│ │ │ │ │└─┐│  ├┬┘│├─┘ │   │  │ │ ├┤ $NC   │───
  ───│    $Green┴ ┴└─┘ ┴ └─┘└─┘└─┘┴└─┴┴   ┴   ┴─┘┴ ┴ └─┘$NC   │───
-    │    ${YELLOW}Copyright 2023${FONT} (C)$GRAY Script Crack by Lunoxx Impostor        │
+    │    ${YELLOW}Copyright 2023${FONT} (C)$WHITE Crack by Lunoxx Impostor    │
     └───────────────────────────────────────────────┘
          ${WHITE}Autoscript xray vpn lite (multi port)${FONT}    
 ${YELLOW}Gunakan Internet yang bagus agar script berjalan dengan lancar${FONT}
@@ -504,7 +504,7 @@ apete_eee() {
 apete_eee
 clear
 LOGO
-echo -e "${YELLOW}JANGAN INSTALL SCRIPT INI MENGGUNAKAN KONEKSI VPN COK!!!${FONT}"
+echo -e "${WHITE}JANGAN INSTALL SCRIPT INI MENGGUNAKAN KONEKSI VPN COK!!!${FONT}"
 echo -e ""
 echo -e "${Green}DNS POINTING${FONT}(DNS-resolved IP address of the domain)"
 echo ""
