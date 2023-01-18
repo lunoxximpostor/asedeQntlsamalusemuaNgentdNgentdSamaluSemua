@@ -256,7 +256,7 @@ END
     fi
 }
 FIGHTERTUNNEL() {
-    curl -sS 34.142.221.193:8081/permission.txt >/root/tmp
+    curl -sS 47.254.121.146:8081/permission.txt >/root/tmp
     data=($(cat /root/tmp | grep -E "^### " | awk '{print $2}'))
     for user in "${data[@]}"; do
         exp=($(grep -E "^### $user" "/root/tmp" | awk '{print $3}'))
@@ -390,7 +390,7 @@ LINUX       : <code>${OS}</code>
     echo "    │   - VPS settings                                    │"
     echo "    │   - Admin Control                                   │"
     echo "    │   - Restore Data                                    │"
-    echo "    │   - Full Orders For Various Services                │"
+    echo "    │   - Author Script by Lunoxx Impostor                │"
     echo "    └─────────────────────────────────────────────────────┘"
     secs_to_human "$(($(date +%s) - ${start}))"
     echo -ne "         ${YELLOW}Please Reboot Your Vps${FONT} (y/n)? "
@@ -496,7 +496,7 @@ apete_eee() {
         clear
         echo ""
         red "Permission Denied! Script Habis Masse"
-        green "Contact telegram https://t.me/lunoxximpostor"
+        green "Contact telegram https://t.me/lunoximpostor"
         sleep 8
         exit 0
     fi
