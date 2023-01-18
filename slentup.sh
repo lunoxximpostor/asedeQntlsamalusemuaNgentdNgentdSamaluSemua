@@ -104,7 +104,7 @@ function LOGO() {
  ───│    $Green┌─┐┬ ┬┌┬┐┌─┐┌─┐┌─┐┬─┐┬┌─┐┌┬┐  ┬  ┬┌┬┐┌─┐$NC   │───
  ───│    $Green├─┤│ │ │ │ │└─┐│  ├┬┘│├─┘ │   │  │ │ ├┤ $NC   │───
  ───│    $Green┴ ┴└─┘ ┴ └─┘└─┘└─┘┴└─┴┴   ┴   ┴─┘┴ ┴ └─┘$NC   │───
-    │    ${YELLOW}Copyright 2023${FONT} (C)$WHITE Created Lunoxx Impostor  │
+    │    ${YELLOW}Copyright 2023${FONT} (C)$WHITE Created Lunoxx Impostor │
     └───────────────────────────────────────────────┘
          ${WHITE}Autoscript xray vpn lite (multi port)${FONT}    
 ${YELLOW}Gunakan Internet yang bagus agar script berjalan dengan lancar${FONT}
