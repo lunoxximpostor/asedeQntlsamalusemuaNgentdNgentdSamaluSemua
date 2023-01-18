@@ -495,7 +495,7 @@ apete_eee() {
     else
         clear
         echo ""
-        red "Permission Denied! Script Habis Masse"
+        red "Permission Denied! Script Habis Coog"
         green "Contact telegram https://t.me/lunoximpostor"
         sleep 8
         exit 0
